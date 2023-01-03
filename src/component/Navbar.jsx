@@ -8,22 +8,33 @@ import { MdOutlineContactPage } from "react-icons/md";
 import { BiDockTop } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 import { BsWindows } from "react-icons/bs";
+import "./nav.css";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [toggle, settoggle] = useState(false);
   return (
     <div className={navbar.navbar}>
-      <div className={navbar.navWrapper}>
-        <div className={navbar.navLogo}>Vishal</div>
-        <div className={navbar.navMenu}>
+      <div className={`${navbar.navWrapper} `}>
+        <div className={`${navbar.navLogo} `}>Vishal</div>
+        <div
+          className={
+            toggle
+              ? `${navbar.navMenu} ${navbar.showmenu} `
+              : `${navbar.navMenu}`
+          }
+        >
           <ul className={`${navbar.navList}  ${navbar.grid}`}>
             <li>
-              <NavLink to="/" className={navbar.navLinks}>
-                <AiOutlineHome className={`${navbar.uli} ${navbar.navIcons}`} />
+              <NavLink to="/" className={`${navbar.navLinks}  navli`}>
+                <AiOutlineHome
+                  className={`${navbar.uli} ${navbar.navIcons} `}
+                />
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className={navbar.navLinks}>
+              <NavLink to="/about" className={`${navbar.navLinks}  navli`}>
                 <RxPerson className={`${navbar.uli} ${navbar.navIcons}`} />
                 About
               </NavLink>
@@ -59,10 +70,13 @@ export default function Navbar() {
               </NavLink>
             </li>
           </ul>
-          <RxCross2 className={navbar.navclose} />
+          <RxCross2
+            className={`${navbar.navclose} ${navbar.showmenu}`}
+            onClick={() => settoggle(!toggle)}
+          />
         </div>
 
-        <div className={navbar.navToggle}>
+        <div className={navbar.navToggle} onClick={() => settoggle(!toggle)}>
           <BsWindows className={`${navbar.uli} ${navbar.uli_app}`} />
         </div>
       </div>
