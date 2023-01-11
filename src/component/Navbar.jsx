@@ -16,7 +16,10 @@ export default function Navbar() {
   return (
     <div className={navbar.navbar}>
       <div className={`${navbar.navWrapper} `}>
-        <div className={`${navbar.navLogo} `}>Vishal</div>
+        <div className={`${navbar.navLogo} `}>
+          {" "}
+          <h1>Vishal</h1>{" "}
+        </div>
         <div
           className={
             toggle

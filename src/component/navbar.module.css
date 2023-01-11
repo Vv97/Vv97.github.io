@@ -6,12 +6,12 @@
 }
 
 .navbar{
-    width: 100%;
-    position: fixed;
+   width: 100%;
+   position: fixed;
     top: 0;
-    left: 0;
-    z-index: 1;
+    z-index:5;
     background-color:hsl(0, 0%, 98%);
+    padding: 10px 0px;
 }
 
 .navWrapper {
@@ -51,7 +51,7 @@ display: none;
     align-items: center;
     text-decoration: none;
     color: #393739;
-    font-size: 0.875rem;
+    font-size: 0.89rem;
     font-weight: 500;
     transition: .3s;
 }
@@ -72,6 +72,11 @@ display: none;
        margin: 0px auto 0 auto;
        padding-left: 20px ;
        padding-right: 20px;
+    }
+
+    .navbar{
+      position: fixed;
+      padding: 0;
     }
  
 
@@ -121,7 +126,6 @@ display: none;
         right: 1.5rem;
         top: 0.8rem;
         font-size: 1.5rem;
-        color: #7FD1AE;
         cursor: pointer;
      }
 
