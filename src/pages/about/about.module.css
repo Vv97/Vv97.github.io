@@ -1,0 +1,51 @@
+.about{
+    background-color: #fbfafb;
+}
+.aboutWrapper{
+    width: 100%;
+    max-width: 968px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px; 
+    color:  #393739;
+    /* border:1px solid rebeccapurple; */
+    align-items: center;
+}
+
+
+.aboutImg {
+    width: 30%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.aboutImg  > img {
+    width: 100%;
+}
+
+.aboutText{
+    width: 70%;
+    /* border: 1px solid rebeccapurple; */
+    text-align: justify;
+}
+
+.aboutText > h1 {
+    font-size: 4rem;
+    font-weight: 400px;
+}
+
+
+.aboutText>p{
+    font-weight: 200px;
+}
+
+.aboutSocialHandle{
+    display: flex;
+    margin-top: 15px;
+    gap: 35px;
+}
+
+.aboutSocialHandle > div {
+    border: 1px solid rebeccapurple;
+    padding: 5px 10px;
+}

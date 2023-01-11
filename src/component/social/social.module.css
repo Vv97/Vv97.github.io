@@ -7,11 +7,13 @@
 
 
 .homeSocial{
-    margin-top: 48px;
+    margin-top: 138px;
     width: 100%;
-    background-color:hsl(0, 0%, 98%);
+    /* background-color:hsl(0, 0%, 98%); */
+    background-color: #fbfafb;
     color: #343234;
     /* border: 1px solid rebeccapurple; */
+    margin-bottom: 75px;
 }
 
 .SocialWrapper{
@@ -52,7 +54,7 @@
 
 @media screen and (max-width: 992px) {
     .homeSocial{
-        margin: 0;
+        /* margin-top: 69px; */
     }
 
     .SocialWrapper{
@@ -71,4 +73,21 @@
  
 
   }
+
+
+  @media screen and (max-width: 762px) {
+    .homeSocial{
+        margin-top: 0px;
+    }
+ 
+
+  }
+
+
+  @media screen and (max-width: 380px) {
+    .homeSocial{
+        margin: 0px;
+    }
+  }
+  
 

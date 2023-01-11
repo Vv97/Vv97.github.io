@@ -11,7 +11,10 @@ export default function Social() {
         <p>Full Stack Web Developer</p>
 
         <div style={{ marginTop: "25px" }}>
-          <a href="#">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1ttdpAgk_U3UTO5BkB5QM2Xwwrp5zH0o6"
+            download
+          >
             <button className={`${styles.socialBtn}`}>Resume</button>
           </a>
         </div>

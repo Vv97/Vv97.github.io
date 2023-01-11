@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Skills from "../pages/Skills";
-import About from "../pages/About";
 import Project from "../pages/Projects";
 import Contact from "../pages/Contact";
 import Resume from "../pages/Resume";
+import About from "../pages/about/About";
 
 const AllRoute = () => {
   return (

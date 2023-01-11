@@ -1,5 +1,6 @@
 import Navbar from "../component/Navbar";
 import Social from "../component/social/Social";
+import About from "./about/About";
 
 const Home = () => {
   return (
@@ -8,6 +9,9 @@ const Home = () => {
       <div className="homeWrapper">
         <div className="social">
           <Social />
+        </div>
+        <div>
+          <About />
         </div>
       </div>
     </div>
