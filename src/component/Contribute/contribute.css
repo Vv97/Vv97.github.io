@@ -14,7 +14,30 @@
 }
 
 
+.contributeTitle{
+    font-size: 3.5rem;
+    padding: 5px;
+    color: var(--title-color);
+}
+
+
+
 .contributerWrapper{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 1rem 0.5rem;
 }
+
+
+@media screen and (max-width:762px) {
+     .contributer{
+        padding-inline: 5px;
+     }
+
+     .contributeTitle{
+        font-size: 2rem;
+        color: var(--title-color);
+        text-align: center;
+        padding: 0.5px;
+     }
+    
+    }

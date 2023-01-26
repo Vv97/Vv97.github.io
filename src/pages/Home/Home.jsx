@@ -1,10 +1,10 @@
-import { Contact } from "../component/Contactus/Contact";
-import { Contribute } from "../component/Contribute/Contribute";
-import Navbar from "../component/Navbar";
-import Social from "../component/social/Social";
-import About from "./about/About";
-import Project from "./Project/Projects";
-import Skills from "./skills/Skills";
+import { Contact } from "../../component/Contactus/Contact";
+import { Contribute } from "../../component/Contribute/Contribute";
+import Navbar from "../../component/Navbar";
+import Social from "../../component/social/Social";
+import About from "../about/About";
+import Project from "../Project/Projects";
+import Skills from "../skills/Skills";
 
 const Home = () => {
   return (

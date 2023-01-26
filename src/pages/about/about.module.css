@@ -16,12 +16,18 @@
 
 
 .aboutImg {
-    width: 30%;
+    width: 32%;
     /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutImg  > img {
-    width: 100%;
+    width: 80%;
+    border-radius: 15px;
+    filter: grayscale(1);
+    box-shadow: rgb(14 30 37 / 61%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
 
 .aboutText{
@@ -31,13 +37,15 @@
 }
 
 .aboutText > h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400px;
+    color: var(--title-color);
 }
 
 
 .aboutText>p{
     font-weight: 200px;
+    color: var(--text-color);
 }
 
 .aboutSocialHandle{
@@ -134,19 +142,21 @@
 }
 
 @media screen and (max-width:425px) {
-   
-    .aboutText{
-        padding-inline: 0;
-        font-size: 1rem;
-        width: 100%;
-       }
+
 
        .aboutText{
+        width: 100%;
         /* border: 1px solid rebeccapurple; */
         text-align:justify;
         padding-inline: 0.2rem;
     }
     
+
+    .aboutText > p {
+        font-size: 0.867rem;
+        line-height: 1.2;
+        padding-inline: 5px;
+    }
 
 
         .aboutImg{

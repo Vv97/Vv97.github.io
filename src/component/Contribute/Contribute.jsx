@@ -5,6 +5,7 @@ import "./contribute.css";
 export const Contribute = () => {
   return (
     <div className="contributer">
+      <h1 className="contributeTitle">Git Status</h1>
       <div className="contributerWrapper">
         <GitHubCalendar
           blockSize={17}

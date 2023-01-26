@@ -10,6 +10,7 @@
     max-width: 968px;
     margin: auto;
     margin-top: 40px;
+    background-color: #fbfafb;
 }
 
 
@@ -19,6 +20,7 @@
   justify-content: center;
   column-gap: 6rem;
   padding-bottom: 3rem;
+  color: #fff;
 }
 
 

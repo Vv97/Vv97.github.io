@@ -4,7 +4,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bebas Neue', cursive , 'Montserrat', sans-serif;
 }
+
+
+
 
 
 h1{
