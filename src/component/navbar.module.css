@@ -13,10 +13,13 @@
     /* background-color:hsl(0, 0%, 98%); */
     background-color: #fbfafb;
     padding: 10px 0px;
+    margin-bottom: 75px;
+    display: none;
 }
 
  .navWrapper {
    height: calc(3rem) ;
+   /* border: 1px solid rebeccapurple; */
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -52,7 +55,7 @@ display: none;
     align-items: center;
     text-decoration: none;
     color: #393739;
-    font-size: 0.89rem;
+    font-size: 0.86rem;
     font-weight: 500;
     transition: .3s;
 }
@@ -61,7 +64,6 @@ display: none;
     color: #393739;
   
 }
-
 
 
 .navLinks:hover {
@@ -77,7 +79,8 @@ display: none;
 
     .navbar{
       position: fixed;
-      padding: 0;
+      top: 0;
+      padding: 0px 0px;
     }
  
 
@@ -92,6 +95,7 @@ display: none;
 
      .navWrapper {
         height: 3rem + 1.5rem;
+       
      }
 
      .navMenu{
@@ -108,8 +112,7 @@ display: none;
      
      .showmenu{
         bottom: 0;
-   
-     }
+     } 
 
      .navList {
         display: grid;

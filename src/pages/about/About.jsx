@@ -1,4 +1,8 @@
 import about from "./about.module.css";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineGithub } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -6,6 +10,7 @@ const About = () => {
       <div className={about.aboutWrapper}>
         <div className={about.aboutImg}>
           <img src="https://i.ibb.co/bBBFVxS/profile-pic.png" alt="" />
+          <h1 className={about.aboutHeading2}>ABOUT ME</h1>
         </div>
         <div className={about.aboutText}>
           <h1>ABOUT ME</h1>
@@ -18,10 +23,25 @@ const About = () => {
           </p>
 
           <div className={about.aboutSocialHandle}>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            <div>
+              <a
+                href="https://github.com/Vv97"
+                target="_blank"
+                className={about.aboutSocialLinks}
+              >
+                <AiOutlineInstagram />
+              </a>
+            </div>
+            <div>
+              <a href="" className={about.aboutSocialLinks}>
+                <AiOutlineLinkedin />
+              </a>
+            </div>
+            <div>
+              <a href="" className={about.aboutSocialLinks}>
+                <AiOutlineGithub />
+              </a>
+            </div>
           </div>
         </div>
       </div>

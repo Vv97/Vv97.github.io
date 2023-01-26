@@ -1,5 +1,6 @@
 .about{
     background-color: #fbfafb;
+    padding: 5% 0px;
 }
 .aboutWrapper{
     width: 100%;
@@ -46,6 +47,114 @@
 }
 
 .aboutSocialHandle > div {
-    border: 1px solid rebeccapurple;
-    padding: 5px 10px;
+    font-size: 25px;
+    padding: 5px 5px;
 }
+
+.aboutSocialLinks{
+    text-decoration:none ;
+  color: #393739;
+  transition: 1.5s;
+}
+
+.aboutSocialLinks:hover {
+    color:#7FD1AE ;
+    transition: 1.5s;
+}
+
+
+.aboutHeading2{
+    display: none;
+}
+
+
+
+@media screen and (max-width:830px) {
+   .aboutText{
+    padding-inline: 0.3rem;
+    font-size: 0.9rem;
+   }
+
+   .aboutText > h1 {
+    font-size: 3rem;
+   }
+
+
+}
+
+
+@media screen and (max-width:530px) {
+
+      .aboutWrapper{
+        display: flex;
+        flex-direction: column;
+      }
+
+    .aboutText{
+        padding-inline: 0.5rem;
+        font-size: 1rem;
+        width: 100%;
+       }
+    
+       .aboutText > h1 {
+        font-size: 2rem;
+        display: none;
+       }
+    
+    
+
+    .aboutHeading2{
+        text-align: start;
+        display: block;
+        width: 60%;
+    }
+
+
+      .aboutImg{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        gap:  7%;
+        padding-inline: 20px;
+        align-items: center;
+        text-align: left;
+    }
+
+
+    .aboutImg  > img{
+        width: 45%;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+
+    .aboutImg > h1 {
+      font-size: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:425px) {
+   
+    .aboutText{
+        padding-inline: 0;
+        font-size: 1rem;
+        width: 100%;
+       }
+
+       .aboutText{
+        /* border: 1px solid rebeccapurple; */
+        text-align:justify;
+        padding-inline: 0.2rem;
+    }
+    
+
+
+        .aboutImg{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
+
+

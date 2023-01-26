@@ -45,17 +45,15 @@
     border: none;
     color: hsl(0, 0%, 98%);
     cursor: pointer;
+    transition: 3s;
 }
 
-/* .socialBtn:hover{
-   background-color: #7FD1AE;
+.socialBtn:hover{
+   background-color: #212121;
    transition: 3s;
-} */
+}
 
 @media screen and (max-width: 992px) {
-    .homeSocial{
-        /* margin-top: 69px; */
-    }
 
     .SocialWrapper{
         padding: 1rem;

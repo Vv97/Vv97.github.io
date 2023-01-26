@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Project{
+    width: 100%;
+   max-width: 968px;
+   margin: 0 auto;
+}
+
+.ProjectWrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+
+.ProjectWrapper > div{
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    padding-bottom: 1.5rem;
+}
+
+.projectLogo{
+    width: 100%;
+}
+
+
+.projectLogo > img{
+    width: 100%;
+}
+
+.projectTeckStackContent{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 2rem;
+    /* border: 1px solid rebeccapurple; */
+    margin-bottom: 1rem;
+}
+
+.projectLinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.projectLinksIconPlay{
+font-size: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+padding: 0.1rem ;
+border: 2px solid black;
+}
+
+.projectLinksIconCode{
+font-size: 2rem;
+border-radius: 50%;
+padding: 0.1rem ;
+border: 2px solid #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.projectLinksIconCode:hover{
+border: 2px solid black;
+border-radius: 50%;
+padding: 0.1rem ;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: #fff;
+}
+
+
+.projectLinksIconPlay:hover{
+    background-color: black;
+    color: #fff;
+}
+
+
+.projectcontentHeading{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #393739;
+
+}
+
+.projectDiscreption{
+    color:  var(--text-color);
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.projectTechStackTitle{
+    color: var(--title-color);
+    margin-top: 12px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.projectTeckStackContent{
+    padding: 0.2rem 0;
+}
+
+
+.projectTeckStackcontentTitle{
+font-size: 0.6rem;
+background-color: var(--title-color);
+color: #fff;
+padding: 0.2rem 0.5rem;
+border-radius: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+

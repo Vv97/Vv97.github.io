@@ -1,0 +1,107 @@
+.Skills{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+   justify-content: center;
+      background-color: #fbfafb;
+}
+
+
+.skillsWrapper{
+  width: 100%;
+  max-width: 968px;
+  min-width: 375px;
+ 
+}
+
+.skillsWrapper > h1{
+   font-size: 4rem;
+   font-weight: 400;
+   text-align: left;
+   color: #393739;
+}
+
+
+.mySkills{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    padding: 5% 0px;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.mySkills > div {
+    font-size: 4rem;
+    color: #393739;
+}
+
+.mySkillsLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0px;
+    border: 1px solid #393739;
+    gap: 1.3rem;
+    border-radius: 8px;
+}
+
+.mySkillsLogo > div {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #393739;
+}
+
+
+
+
+@media screen and (max-width:830px) {
+    .mySkills{
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 15px;
+    }
+
+    .mySkills > div {
+        font-size: 3rem;
+    }
+
+    .SkillsHeading > h6{
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width:530px) {
+    .mySkills{
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 10px;
+    }
+
+    .mySkills > div {
+        font-size: 2rem;
+    }
+
+    .SkillsHeading > h6{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .mySkills{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border: 1px solid rebeccapurple;
+    }
+    
+
+    .mySkills > div {
+        font-size: 3.2rem;
+    }
+
+}

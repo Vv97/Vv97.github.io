@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+.contributer{
+    width: 100%;
+   max-width: 968px;
+   margin: 0 auto;
+   padding: 3rem 0;
+}
+
+
+.contributerWrapper{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1rem 0.5rem;
+}
