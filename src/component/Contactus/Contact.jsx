@@ -37,7 +37,7 @@ export const Contact = () => {
       <div className="contactWrapper">
         <div className="contactContainer">
           <div className="contactContent">
-            <h3 className="contactTitle">Talk to me</h3>
+            {/* <h3 className="contactTitle">Talk to me</h3> */}
 
             <div className="contactInfo">
               <div className="contactCard">
@@ -77,9 +77,9 @@ export const Contact = () => {
             <h3 className="contactTitle"></h3>
           </div>
         </div>
-        <div>
+        <div className="contactFormContainer">
           <form ref={form} onSubmit={sendEmail} className="contactForm">
-            <h3 className="contactTitle">Talk to me</h3>
+            {/* <h3 className="contactTitle">Talk to me</h3> */}
             <div className="contactFormDiv">
               <label className="contactFormTag">Name</label>
               <input

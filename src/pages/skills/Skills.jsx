@@ -63,7 +63,7 @@ const skillSets = [
 
 const Skills = () => {
   return (
-    <div className={skillsc.Skills}>
+    <div id="skills" className={skillsc.Skills}>
       <div className={skillsc.skillsWrapper}>
         <h1>My Skills</h1>
 

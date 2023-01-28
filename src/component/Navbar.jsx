@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import navbar from "./navbar.module.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { RxPerson } from "react-icons/rx";
@@ -29,48 +29,48 @@ export default function Navbar() {
         >
           <ul className={`${navbar.navList}  ${navbar.grid}`}>
             <li>
-              <NavLink to="/" className={`${navbar.navLinks}  navli`}>
+              <Link to="/" className={`${navbar.navLinks}  navli`}>
                 <AiOutlineHome
                   className={`${navbar.uli} ${navbar.navIcons} `}
                 />
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/about" className={`${navbar.navLinks}  navli`}>
+              <Link to="about" className={`${navbar.navLinks}  navli`}>
                 <RxPerson className={`${navbar.uli} ${navbar.navIcons}`} />
                 About
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/skills" className={navbar.navLinks}>
+              <Link to="skills" className={navbar.navLinks}>
                 <AiOutlineFileText
                   className={`${navbar.uli} ${navbar.navIcons}`}
                 />
                 Skills
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/project" className={navbar.navLinks}>
+              <Link to="project" className={navbar.navLinks}>
                 <AiOutlineProject
                   className={`${navbar.uli} ${navbar.navIcons}`}
                 />
                 Project
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/contact" className={navbar.navLinks}>
+              <Link to="contact" className={navbar.navLinks}>
                 <MdOutlineContactPage
                   className={`${navbar.uli} ${navbar.navIcons}`}
                 />
                 Contact
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/resume" className={navbar.navLinks}>
+              <Link to="/resume" className={navbar.navLinks}>
                 <BiDockTop className={`${navbar.uli} ${navbar.navIcons}`} />
                 Resume
-              </NavLink>
+              </Link>
             </li>
           </ul>
           <RxCross2

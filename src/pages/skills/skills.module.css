@@ -83,18 +83,21 @@ font-weight: 400;
 }
 
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:540px) {
     .mySkills{
         grid-template-columns: repeat(3 , 1fr);
         gap: 10px;
+        padding-inline: 5px;
+        border: 1px solid red;
     }
 
     .mySkills > div {
         font-size: 2rem;
+        padding: 10px;
     }
 
     .SkillsHeading > h6{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     
@@ -117,6 +120,8 @@ font-weight: 400;
         grid-template-columns: repeat(2,1fr);
         padding-left: 0.5rem;
         padding-right: 0.5rem;
+        border: 1px solid red;
+
     }
     
 

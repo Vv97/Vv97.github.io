@@ -179,7 +179,7 @@ height: 11rem;
 
 .contactHeading{
     font-size: 3rem;
-    color: #292929;
+    color: var(--title-color);
     text-align: center;
     padding-bottom: 3rem;
 }
@@ -189,7 +189,6 @@ height: 11rem;
 @media screen and (max-width:992px) {
     
 .contactWrapper{
-  border: 1px solid orange;
   column-gap: 3rem;
 }
 
@@ -218,15 +217,13 @@ height: 11rem;
 
 
 
-@media screen and (max-width:576x) {
+@media screen and (max-width:576px) {
     
-.contactInfo{
-grid-template-columns: 1fr;
+
+.contactContainer{
+    /* padding-inline: 5px; */
+    order: 1;
 }
 
 
-.contactForm{
-    width: 100%;
-}
-    
 }

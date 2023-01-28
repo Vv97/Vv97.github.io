@@ -6,11 +6,13 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className={about.about}>
+    <div className={about.about} id="about">
       <div className={about.aboutWrapper}>
         <div className={about.aboutImg}>
           <img src="https://i.ibb.co/bBBFVxS/profile-pic.png" alt="" />
-          <h1 className={about.aboutHeading2}>ABOUT ME</h1>
+          <div className={about.aboutHeading2Container}>
+            <h1 className={about.aboutHeading2}>ABOUT ME</h1>
+          </div>
         </div>
         <div className={about.aboutText}>
           <h1>ABOUT ME</h1>
