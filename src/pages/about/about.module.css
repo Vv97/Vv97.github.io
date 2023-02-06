@@ -151,6 +151,12 @@
         display: none;
        }
 
+       .aboutSocialHandle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
        .aboutSocialHandle > div {
         font-size: 25px;
         padding: 2px 0px;

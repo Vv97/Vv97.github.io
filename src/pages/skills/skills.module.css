@@ -30,11 +30,13 @@ background-color: #fbfafb;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: 2s;
 }
 
-.SkillsHeading > h6{
+.SkillsHeading {
 /* border: 1px solid rebeccapurple; */
 font-weight: 400;
+font-size: 1.3rem;
 }
 
 .mySkills > div {
@@ -61,6 +63,20 @@ font-weight: 400;
     color: #393739;
 }
 
+.mySkills > div:hover{
+    background-color:#393739;
+    color: #fbfafb;
+    transition: 2s;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.049),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.058),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.061),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.061),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.063),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+}
+
+
 
 
 
@@ -77,6 +93,7 @@ font-weight: 400;
         font-size: 3rem;
     }
 
+
     .SkillsHeading > h6{
         font-size: 1.1rem;
     }
@@ -88,7 +105,7 @@ font-weight: 400;
         grid-template-columns: repeat(3 , 1fr);
         gap: 10px;
         padding-inline: 5px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .mySkills > div {
@@ -120,10 +137,14 @@ font-weight: 400;
         grid-template-columns: repeat(2,1fr);
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
     }
-    
+
+
+    .skillsWrapper > h1{
+        font-size: 3rem;
+    }
 
     .mySkills > div {
         font-size: 3.2rem;

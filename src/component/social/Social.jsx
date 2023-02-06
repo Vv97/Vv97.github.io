@@ -6,9 +6,9 @@ export default function Social() {
   return (
     <div className={`${styles.homeSocial}`}>
       <div className={`${styles.SocialWrapper}`}>
-        <p>Hi,my name is</p>
-        <h1>Vishal Varma</h1>
-        <p>Full Stack Web Developer</p>
+        <p className={styles.styleNameTitle}>Hi,my name is</p>
+        <h1 className={styles.styleHeadingTitle}>Vishal Varma</h1>
+        <p className={styles.styleNameTitle1}>Full Stack Web Developer</p>
 
         <div style={{ marginTop: "25px" }}>
           <a

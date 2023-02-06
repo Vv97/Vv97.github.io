@@ -7,13 +7,12 @@
 
 
 .homeSocial{
-    margin-top: 138px;
     width: 100%;
     /* background-color:hsl(0, 0%, 98%); */
     background-color: #fbfafb;
     color: #343234;
     /* border: 1px solid rebeccapurple; */
-    margin-bottom: 75px;
+    padding: 58px;
 }
 
 .SocialWrapper{
@@ -21,14 +20,16 @@
    max-width: 968px;
   margin: 0 auto;
   padding:  65px 0;
+  /* border: 1px solid red; */
 }
 
-.SocialWrapper > h1 {
+.styleHeadingTitle {
     font-size: 7rem;
+    /* border: 1px solid green; */
     margin: 0;
 }
 
-.SocialWrapper > p:first-child , .SocialWrapper > p{
+.styleNameTitle ,   .styleNameTitle1{
     font-size: 2rem;
     margin: 0;
 }
@@ -59,32 +60,60 @@
         padding: 1rem;
     }
 
-    .SocialWrapper > h1 {
+    .styleHeadingTitle {
         font-size: 5rem;
         margin: 0;
     }
     
-    .SocialWrapper > p:first-child , .SocialWrapper > p{
+    .styleNameTitle ,   .styleNameTitle1{
         font-size: 1.5rem;
         margin: 0;
     }
- 
 
   }
 
 
   @media screen and (max-width: 762px) {
+    
+
+    .homeSocial{
+        padding: 58px;
+    }
+
+    .SocialWrapper{
+        padding: 1rem 0;
+    }
+
     .homeSocial{
         margin-top: 0px;
     }
- 
+    
+    .styleHeadingTitle {
+        font-size: 4rem;
+         /* border: 1px solid rebeccapurple; */
+    }
 
   }
 
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 465px) {
     .homeSocial{
         margin: 0px;
+        /* border: 1px solid red; */
+        padding: 65px 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .styleNameTitle , .styleNameTitle1{
+        font-size: 1.2rem;
+        /* border: 1px solid rebeccapurple; */
+        margin-bottom: 5px;
+    }
+
+    .styleHeadingTitle {
+        font-size: 3rem;
+         /* border: 1px solid rebeccapurple; */
     }
   }
   

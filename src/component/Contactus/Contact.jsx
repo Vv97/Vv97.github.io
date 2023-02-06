@@ -43,9 +43,7 @@ export const Contact = () => {
               <div className="contactCard">
                 <MdOutlineMarkEmailUnread className="contactCardIcon" />
                 <h3 className="contactCardTitle">Gmail</h3>
-                <span className="contactCardData">
-                  vishalvarma537@gmail.com
-                </span>
+                <p className="contactCardData">vishalvarma537@gmail.com</p>
                 <Link className="contactBtn">
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
                 </Link>
@@ -54,7 +52,7 @@ export const Contact = () => {
               <div className="contactCard">
                 <AiOutlineWhatsApp className="contactCardIcon" />
                 <h3 className="contactCardTitle">Whatsapp</h3>
-                <span className="contactCardData">+91 9702760705</span>
+                <p className="contactCardData">+91 9702760705</p>
                 <Link className="contactBtn">
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
                 </Link>
@@ -63,9 +61,7 @@ export const Contact = () => {
               <div className="contactCard">
                 <GrLinkedinOption className="contactCardIcon" />
                 <h3 className="contactCardTitle">LinkedIn</h3>
-                <span className="contactCardData">
-                  vishalvarma537@gmail.com
-                </span>
+                <p className="contactCardData">vishalvarma537@gmail.com</p>
                 <Link className="contactBtn">
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
                 </Link>

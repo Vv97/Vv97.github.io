@@ -1,8 +1,20 @@
-import skillsc from "./skills.module.css";
-import { FaHtml5, FaReact, FaCss3 } from "react-icons/fa";
-import { SiJavascript, SiRedux, SiHeroku, SiTypescript } from "react-icons/si";
+import { FaHtml5, FaCss3, FaReact, FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-
+import {
+  SiTypescript,
+  SiJavascript,
+  SiHeroku,
+  SiRedux,
+  SiChakraui,
+  SiExpress,
+  SiVercel,
+  SiCodesandbox,
+  SiReplit,
+  SiVisualstudiocode,
+} from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { AiFillGithub } from "react-icons/ai";
+import skillsc from "./skills.module.css";
 const skillSets = [
   {
     id: 1,
@@ -16,33 +28,33 @@ const skillSets = [
   },
   {
     id: 3,
-    name: "JAVASCRIPT",
+    name: "JavaScript",
     logo: <SiJavascript />,
   },
   {
     id: 4,
-    name: "REACT JS",
+    name: "React.js",
     logo: <FaReact />,
   },
   {
     id: 5,
-    name: "NEXT JS",
+    name: "Next.js",
     logo: <TbBrandNextjs />,
   },
   {
     id: 6,
-    name: "TYPESCRIPT",
+    name: "TypeScript",
     logo: <SiTypescript />,
   },
   {
     id: 7,
-    name: "HEROKU",
-    logo: <SiHeroku />,
+    name: "Chakra UI",
+    logo: <SiChakraui />,
   },
   {
     id: 8,
-    name: "REDUX",
-    logo: <SiRedux />,
+    name: "Node.js",
+    logo: <FaNodeJs />,
   },
   {
     id: 9,
@@ -51,13 +63,43 @@ const skillSets = [
   },
   {
     id: 10,
-    name: "REDUX",
-    logo: <SiRedux />,
+    name: "MongoDB",
+    logo: <DiMongodb />,
   },
   {
     id: 11,
-    name: "REDUX",
-    logo: <SiRedux />,
+    name: "Express.js",
+    logo: <SiExpress />,
+  },
+  {
+    id: 12,
+    name: "Heroku",
+    logo: <SiHeroku />,
+  },
+  {
+    id: 13,
+    name: "Vercel",
+    logo: <SiVercel />,
+  },
+  {
+    id: 14,
+    name: "Github",
+    logo: <AiFillGithub />,
+  },
+  {
+    id: 15,
+    name: "Codesandbox",
+    logo: <SiCodesandbox />,
+  },
+  {
+    id: 16,
+    name: "Replit",
+    logo: <SiReplit />,
+  },
+  {
+    id: 17,
+    name: "VS Code",
+    logo: <SiVisualstudiocode />,
   },
 ];
 
@@ -70,9 +112,7 @@ const Skills = () => {
         <div className={skillsc.mySkills}>
           {skillSets?.map((user) => (
             <div className={skillsc.mySkillsLogo} key={user.id}>
-              <div className={skillsc.SkillsHeading}>
-                <h6>{user.name}</h6>
-              </div>
+              <h6 className={skillsc.SkillsHeading}>{user.name}</h6>
               {user.logo}
             </div>
           ))}
