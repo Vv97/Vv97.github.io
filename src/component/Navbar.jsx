@@ -8,7 +8,7 @@ import { Dropdown } from "./Dropdown/Dropdown";
 export default function Navbar() {
   const [toggle, settoggle] = useState(false);
   return (
-    <div className={`${navbar.navbar}  nav-menu  `}>
+    <div id="nav-menu" className={`${navbar.navbar} `}>
       <div className={`${navbar.navWrapper} `}>
         <div className={`${navbar.navLogo} `}>
           <h1>Vishal</h1>
@@ -18,7 +18,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/"
-                className={`${navbar.navLinks}  navli  nav-link`}
+                className={`${navbar.navLinks}  navli nav-link home`}
                 activeClass="active"
               >
                 Home
@@ -27,7 +27,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="about"
-                className={`${navbar.navLinks}  navli  nav-link`}
+                className={`${navbar.navLinks}  navli nav-link  about`}
               >
                 About
               </Link>
@@ -35,24 +35,37 @@ export default function Navbar() {
             <li>
               <Link
                 to="skills"
-                className={`${navbar.navLinks} nav-link`}
+                id="nav-link"
+                className={`${navbar.navLinks}  navli nav-link skills`}
                 activeClass="activeNavLinks"
               >
                 Skills
               </Link>
             </li>
             <li>
-              <Link to="project" className={`${navbar.navLinks} nav-link`}>
+              <Link
+                id="nav-link"
+                to="project"
+                className={`${navbar.navLinks} navli nav-link projects`}
+              >
                 Project
               </Link>
             </li>
             <li>
-              <Link to="contact" className={`${navbar.navLinks} nav-link`}>
+              <Link
+                id="nav-link"
+                to="contact"
+                className={`${navbar.navLinks} navli nav-link contact`}
+              >
                 Contact
               </Link>
             </li>
             <li>
-              <Link to="/resume" className={`${navbar.navLinks} nav-link`}>
+              <Link
+                id="nav-link"
+                to="/resume"
+                className={`${navbar.navLinks} navli nav-link resume`}
+              >
                 Resume
               </Link>
             </li>

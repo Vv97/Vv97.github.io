@@ -1,14 +1,16 @@
 import { Contact } from "../../component/Contactus/Contact";
 import { Contribute } from "../../component/Contribute/Contribute";
+import { GitStatus } from "../../component/gitstatus/GitStatus";
 import Navbar from "../../component/Navbar";
 import Social from "../../component/social/Social";
 import About from "../about/About";
 import Project from "../Project/Projects";
 import Skills from "../skills/Skills";
+import "./home.css";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <Navbar />
       <div
         className="homeWrapper"
@@ -27,6 +29,10 @@ const Home = () => {
 
         <div>
           <Contribute />
+        </div>
+
+        <div>
+          <GitStatus />
         </div>
 
         <div>

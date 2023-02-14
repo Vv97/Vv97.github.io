@@ -57,6 +57,7 @@
 .projectLinks{
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
 }
 
 
@@ -81,6 +82,7 @@ border: 2px solid #fff;
 display: flex;
 justify-content: center;
 align-items: center;
+color: black;
 }
 
 .projectLinksIconCode:hover{
@@ -148,6 +150,11 @@ font-family: 'Montserrat', sans-serif;
     transform: scale(0.9);
    
     z-index: 1;
+}
+
+
+.projectLinks{
+    color: black;
 }
 
 

@@ -17,6 +17,7 @@
 .contactWrapper{
     display: grid;
   grid-template-columns: repeat(2,max-content);
+  align-items: center;
   justify-content: center;
   column-gap: 6rem;
   padding-bottom: 3rem;
@@ -47,6 +48,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    margin-top: 15px;
 }
 
 
@@ -71,7 +73,8 @@
 .contactCardIcon{
     font-size: 2rem;
     color: #333333;
-    margin-bottom: 0.25rem;
+    /* margin-bottom: 0.25rem; */
+    margin-bottom: 15px;
 }
 
 .contactCard{
@@ -80,6 +83,7 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    line-height: 0%;
 }
 
 
@@ -145,6 +149,9 @@ column-gap: 0.25rem;
     color: #393739;
 }
 
+
+
+
 .contactFormArea{
 height: 11rem;
 }
@@ -167,6 +174,7 @@ height: 11rem;
     border-radius: 10px;
     gap: 5px;
     font-size: 1.1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 

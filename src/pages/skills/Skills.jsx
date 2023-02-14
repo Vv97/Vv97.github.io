@@ -13,93 +13,109 @@ import {
   SiVisualstudiocode,
 } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
 import skillsc from "./skills.module.css";
 const skillSets = [
   {
     id: 1,
     name: "HTML5",
-    logo: <FaHtml5 />,
+    logo: <FaHtml5 className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 2,
     name: "CSS3",
-    logo: <FaCss3 />,
+    logo: <FaCss3 className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 3,
     name: "JavaScript",
-    logo: <SiJavascript />,
+    logo: (
+      <SiJavascript className={`${skillsc.skillsLogoitem} skills-card-img`} />
+    ),
   },
   {
     id: 4,
     name: "React.js",
-    logo: <FaReact />,
+    logo: <FaReact className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 5,
     name: "Next.js",
-    logo: <TbBrandNextjs />,
+    logo: (
+      <TbBrandNextjs className={`${skillsc.skillsLogoitem} skills-card-img`} />
+    ),
   },
   {
     id: 6,
     name: "TypeScript",
-    logo: <SiTypescript />,
+    logo: (
+      <SiTypescript className={`${skillsc.skillsLogoitem} skills-card-img`} />
+    ),
   },
   {
     id: 7,
     name: "Chakra UI",
-    logo: <SiChakraui />,
+    logo: (
+      <SiChakraui className={`${skillsc.skillsLogoitem} skills-card-img`} />
+    ),
   },
   {
     id: 8,
     name: "Node.js",
-    logo: <FaNodeJs />,
+    logo: <FaNodeJs className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 9,
     name: "REDUX",
-    logo: <SiRedux />,
+    logo: <SiRedux className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 10,
     name: "MongoDB",
-    logo: <DiMongodb />,
+    logo: <DiMongodb className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 11,
     name: "Express.js",
-    logo: <SiExpress />,
+    logo: <SiExpress className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 12,
     name: "Heroku",
-    logo: <SiHeroku />,
+    logo: <SiHeroku className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 13,
     name: "Vercel",
-    logo: <SiVercel />,
+    logo: <SiVercel className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 14,
     name: "Github",
-    logo: <AiFillGithub />,
+    logo: (
+      <AiFillGithub className={`${skillsc.skillsLogoitem} skills-card-img`} />
+    ),
   },
   {
     id: 15,
     name: "Codesandbox",
-    logo: <SiCodesandbox />,
+    logo: (
+      <SiCodesandbox className={`${skillsc.skillsLogoitem} skills-card-img`} />
+    ),
   },
   {
     id: 16,
     name: "Replit",
-    logo: <SiReplit />,
+    logo: <SiReplit className={`${skillsc.skillsLogoitem} skills-card-img`} />,
   },
   {
     id: 17,
     name: "VS Code",
-    logo: <SiVisualstudiocode />,
+    logo: (
+      <SiVisualstudiocode
+        className={`${skillsc.skillsLogoitem} skills-card-img`}
+      />
+    ),
   },
 ];
 
@@ -111,8 +127,14 @@ const Skills = () => {
 
         <div className={skillsc.mySkills}>
           {skillSets?.map((user) => (
-            <div className={skillsc.mySkillsLogo} key={user.id}>
-              <h6 className={skillsc.SkillsHeading}>{user.name}</h6>
+            <div
+              className={`${skillsc.mySkillsLogo} ${skillsc.bounce} skills-card`}
+              key={user.id}
+            >
+              <h6 className={`${skillsc.SkillsHeading} skills-card-name`}>
+                {user.name}
+              </h6>
+
               {user.logo}
             </div>
           ))}

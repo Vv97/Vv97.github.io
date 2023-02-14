@@ -4,9 +4,11 @@ import "./contact.css";
 import { Link } from "react-router-dom";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
-import { AiOutlineWhatsApp } from "react-icons/ai";
+import { BsPhone, BsGithub } from "react-icons/bs";
 import { GrLinkedinOption } from "react-icons/gr";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import { TbLocation } from "react-icons/tb";
+import { DiGithubFull } from "react-icons/di";
 
 export const Contact = () => {
   const form = useRef();
@@ -32,7 +34,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <h2 className="contactHeading">CONTACT ME</h2>
       <div className="contactWrapper">
         <div className="contactContainer">
@@ -50,7 +52,7 @@ export const Contact = () => {
               </div>
 
               <div className="contactCard">
-                <AiOutlineWhatsApp className="contactCardIcon" />
+                <BsPhone className="contactCardIcon" />
                 <h3 className="contactCardTitle">Whatsapp</h3>
                 <p className="contactCardData">+91 9702760705</p>
                 <Link className="contactBtn">
@@ -59,7 +61,16 @@ export const Contact = () => {
               </div>
 
               <div className="contactCard">
-                <GrLinkedinOption className="contactCardIcon" />
+                <AiOutlineLinkedin className="contactCardIcon" />
+                <h3 className="contactCardTitle">LinkedIn</h3>
+                <p className="contactCardData">vishalvarma537@gmail.com</p>
+                <Link className="contactBtn">
+                  Write me <HiOutlineArrowSmRight className="contactbtnicon" />
+                </Link>
+              </div>
+
+              <div className="contactCard">
+                <BsGithub className="contactCardIcon" />
                 <h3 className="contactCardTitle">LinkedIn</h3>
                 <p className="contactCardData">vishalvarma537@gmail.com</p>
                 <Link className="contactBtn">
