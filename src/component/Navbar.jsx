@@ -18,6 +18,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/"
+                id="nav-link"
                 className={`${navbar.navLinks}  navli nav-link home`}
                 activeClass="active"
               >
@@ -26,6 +27,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
+                id="nav-link"
                 to="about"
                 className={`${navbar.navLinks}  navli nav-link  about`}
               >

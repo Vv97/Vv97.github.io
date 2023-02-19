@@ -33,7 +33,18 @@ let obj = [
     deploy: "https://upbeat-afterthought-8396.vercel.app/",
     github: "https://github.com/Satyaranjan8414/upbeat-afterthought-8396",
   },
+
+  {
+    title: "unbounce",
+    deciption:
+      "Unbounce helps you get more outta your marketing strategy. From pre-optimized landing pages to great copy .",
+    image: "https://i.imgur.com/XFvlUbT.png",
+    techstack: ["HTML", "CSS", "ReactJs"],
+    deploy: "https://upbeat-afterthought-8396.vercel.app/",
+    github: "https://github.com/Satyaranjan8414/upbeat-afterthought-8396",
+  },
 ];
+// https://i.imgur.com/XFvlUbT.png
 
 const Project = () => {
   return (
@@ -42,7 +53,7 @@ const Project = () => {
       <div className="ProjectWrapper">
         {obj.length > 0 &&
           obj.map((user) => (
-            <div className="projectContent">
+            <div className="projectContent project-card">
               <h1 className="projectcontentHeading project-title">
                 {user.title}
               </h1>
