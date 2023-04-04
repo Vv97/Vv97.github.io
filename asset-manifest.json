@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f9f1892b.css",
-    "main.js": "/static/js/main.741c0afc.js",
+    "main.js": "/static/js/main.27b41263.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Vishal_Varma_Resume.pdf": "/static/media/Vishal_Varma_Resume.e8b553a45cb18f9f91bf.pdf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.f9f1892b.css.map": "/static/css/main.f9f1892b.css.map",
-    "main.741c0afc.js.map": "/static/js/main.741c0afc.js.map",
+    "main.27b41263.js.map": "/static/js/main.27b41263.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9f1892b.css",
-    "static/js/main.741c0afc.js"
+    "static/js/main.27b41263.js"
   ]
 }
