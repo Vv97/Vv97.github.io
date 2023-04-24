@@ -8,7 +8,7 @@ let obj = [
     deciption:
       "Travlo.com is a booking platform where travelers can book a flight hotel and rent car.",
     image: "https://i.imgur.com/YdDxYzK.jpg",
-    techstack: ["HTML", "CSS", "ReactJs"],
+    techstack: ["HTML", "CSS", "javascript", "ReactJs"],
     deploy: "https://booking-klprescq6-vv97.vercel.app/",
     github: "https://github.com/Vv97/alluring-room-2993",
   },
@@ -18,7 +18,7 @@ let obj = [
     deciption:
       "Travellia.com is a booking platform where travelers can book a flight hotel and rent car.",
     image: "https://i.imgur.com/s7L5hfi.png",
-    techstack: ["HTML", "CSS", "React", "Chakraui", "Redux"],
+    techstack: ["HTML", "CSS", "javascript", "Reactjs", "Redux", "Chakraui"],
     deploy: "https://upbeat-afterthought-8396.vercel.app/",
     github: "https://github.com/Satyaranjan8414/upbeat-afterthought-8396",
   },
@@ -32,9 +32,9 @@ let obj = [
       "HTML",
       "CSS",
       "javascript",
-      "Chakraui",
       "Reactjs",
       "Redux",
+      "Chakraui",
       "MongoDB",
       "Express",
       "nodejs",
