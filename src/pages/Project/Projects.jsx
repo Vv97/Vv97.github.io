@@ -1,5 +1,4 @@
 import "./Project.css";
-import { DiReact, DiHtml5, DiCss3Full } from "react-icons/di";
 import { BsCodeSlash, BsPlayFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,7 @@ let obj = [
     title: "Travlo",
     deciption:
       "Travlo.com is a booking platform where travelers can book a flight hotel and rent car.",
-    image: "https://i.imgur.com/k6T9GR3.png",
+    image: "https://i.imgur.com/YdDxYzK.jpg",
     techstack: ["HTML", "CSS", "ReactJs"],
     deploy: "https://booking-klprescq6-vv97.vercel.app/",
     github: "https://github.com/Vv97/alluring-room-2993",
@@ -19,19 +18,29 @@ let obj = [
     deciption:
       "Travellia.com is a booking platform where travelers can book a flight hotel and rent car.",
     image: "https://i.imgur.com/s7L5hfi.png",
-    techstack: ["HTML", "CSS", "ReactJs", "Chakraui", "recat-Redux"],
+    techstack: ["HTML", "CSS", "React", "Chakraui", "Redux"],
     deploy: "https://upbeat-afterthought-8396.vercel.app/",
     github: "https://github.com/Satyaranjan8414/upbeat-afterthought-8396",
   },
 
   {
-    title: "Travlo",
+    title: "ebuzz",
     deciption:
       "Travlo.com is a booking platform where travelers can book a flight hotel and rent car.",
-    image: "https://i.imgur.com/7u6rElI.png",
-    techstack: ["HTML", "CSS", "ReactJs"],
-    deploy: "https://upbeat-afterthought-8396.vercel.app/",
-    github: "https://github.com/Satyaranjan8414/upbeat-afterthought-8396",
+    image: "https://i.imgur.com/9w2lUcF.jpg",
+    techstack: [
+      "HTML",
+      "CSS",
+      "javascript",
+      "Chakraui",
+      "Reactjs",
+      "Redux",
+      "MongoDB",
+      "Express",
+      "nodejs",
+    ],
+    deploy: "https://ret-vv97.vercel.app/",
+    github: "https://github.com/Vv97/rampant-quiet-9349",
   },
 
   {
@@ -39,12 +48,11 @@ let obj = [
     deciption:
       "Unbounce helps you get more outta your marketing strategy. From pre-optimized landing pages to great copy .",
     image: "https://i.imgur.com/XFvlUbT.png",
-    techstack: ["HTML", "CSS", "ReactJs"],
-    deploy: "https://upbeat-afterthought-8396.vercel.app/",
-    github: "https://github.com/Satyaranjan8414/upbeat-afterthought-8396",
+    techstack: ["HTML", "CSS", "javascript"],
+    deploy: "https://endearing-brioche-ffbcc5.netlify.app/",
+    github: "https://github.com/Vv97/limitless-dress-2422",
   },
 ];
-// https://i.imgur.com/XFvlUbT.png
 
 const Project = () => {
   return (
@@ -53,7 +61,7 @@ const Project = () => {
       <div className="ProjectWrapper">
         {obj.length > 0 &&
           obj.map((user) => (
-            <div className="projectContent project-card">
+            <div className="projectContent project-card" key={user.title}>
               <h1 className="projectcontentHeading project-title">
                 {user.title}
               </h1>

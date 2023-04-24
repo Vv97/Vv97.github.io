@@ -26,7 +26,7 @@ export const GitStatus = () => {
         <div>
           <img
             id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vv97&layout=compact&title_color=393739&bg_color=fbfafb&hide_border=true&text_color=393739"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=vv97&layout=compact&title_color=393739&bg_color=fbfafb&hide_border=true&text_color=393739"
             alt=""
           />
         </div>

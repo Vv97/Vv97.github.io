@@ -46,36 +46,56 @@ export const Contact = () => {
                 <MdOutlineMarkEmailUnread className="contactCardIcon" />
                 <h3 className="contactCardTitle">Gmail</h3>
                 <p className="contactCardData">vishalvarma537@gmail.com</p>
-                <Link className="contactBtn">
+                <a
+                  href="mailto:vishalvarma537@gmail.com"
+                  target="_blank"
+                  className="contactBtn"
+                  id="contact-email"
+                >
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
-                </Link>
+                </a>
               </div>
 
               <div className="contactCard">
                 <BsPhone className="contactCardIcon" />
                 <h3 className="contactCardTitle">Whatsapp</h3>
                 <p className="contactCardData">+91 9702760705</p>
-                <Link className="contactBtn">
+                <a
+                  href="tel:+919702760705"
+                  target="_blank"
+                  id="contact-phone"
+                  className="contactBtn"
+                >
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
-                </Link>
+                </a>
               </div>
 
               <div className="contactCard">
                 <AiOutlineLinkedin className="contactCardIcon" />
-                <h3 className="contactCardTitle">LinkedIn</h3>
-                <p className="contactCardData">vishalvarma537@gmail.com</p>
-                <Link className="contactBtn">
+                {/* <h3 className="contactCardTitle">LinkedIn</h3> */}
+                <p className="contactCardData">LinkedIn</p>
+                <a
+                  href="https://www.linkedin.com/in/vishal-varma-96a9bb241/"
+                  className="contactBtn"
+                  id="contact-linkedin"
+                  target="_blank"
+                >
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
-                </Link>
+                </a>
               </div>
 
               <div className="contactCard">
                 <BsGithub className="contactCardIcon" />
-                <h3 className="contactCardTitle">LinkedIn</h3>
-                <p className="contactCardData">vishalvarma537@gmail.com</p>
-                <Link className="contactBtn">
+                {/* <h3 className="contactCardTitle">LinkedIn</h3> */}
+                <p className="contactCardData">Github</p>
+                <a
+                  href="https://github.com/vv97"
+                  target="_blank"
+                  id="contact-github"
+                  className="contactBtn"
+                >
                   Write me <HiOutlineArrowSmRight className="contactbtnicon" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>

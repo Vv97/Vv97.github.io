@@ -1,11 +1,8 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link } from "react-scroll";
 import styles from "./social.module.css";
 
 export default function Social() {
-  const naviigate = useNavigate();
-
-  function handleClick() {}
   return (
     <div className={`${styles.homeSocial}`}>
       <div className={`${styles.SocialWrapper}`}>
@@ -18,12 +15,9 @@ export default function Social() {
         </p>
 
         <div style={{ marginTop: "25px" }}>
-          <a
-            href="https://drive.google.com/uc?export=download&id=1ttdpAgk_U3UTO5BkB5QM2Xwwrp5zH0o6"
-            download
-          >
-            <button className={`${styles.socialBtn}`}>Resume</button>
-          </a>
+          <Link to="contact">
+            <button className={`${styles.socialBtn}`}>Contact</button>
+          </Link>
         </div>
       </div>
     </div>

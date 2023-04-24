@@ -4,6 +4,7 @@ import { RiMenuUnfoldLine, RiMenuFoldLine } from "react-icons/ri";
 import "./nav.css";
 import { useState } from "react";
 import { Dropdown } from "./Dropdown/Dropdown";
+import { redirect } from "./redirect/rd";
 
 export default function Navbar() {
   const [toggle, settoggle] = useState(false);
@@ -47,7 +48,7 @@ export default function Navbar() {
             <li>
               <Link
                 id="nav-link"
-                to="project"
+                to="projects"
                 className={`${navbar.navLinks} navli nav-link projects`}
               >
                 Project
@@ -63,13 +64,34 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link
-                id="nav-link"
-                to="/resume"
-                className={`${navbar.navLinks} navli nav-link resume`}
+              <a
+                href="https://drive.google.com/uc?export=download&id=1ttdpAgk_U3UTO5BkB5QM2Xwwrp5zH0o6"
+                // className={`${navbar.navLinks}  navbarResumelink nav-link resume`}
+                download
               >
-                Resume
-              </Link>
+                <button
+                  id="resume-button-1"
+                  style={{ border: "none", background: "inherit" }}
+                  className={`${navbar.navLinks}  navbarResumelink nav-link resume`}
+                  onClick={redirect}
+                >
+                  Resume
+                </button>
+              </a>
+              {/* 
+              <button
+                style={{ border: "none", fontSize: "1.1rem" }}
+                onClick={redirect}
+                id="resume-button-1"
+              >
+                <a
+                  id="resume-link-1"
+                  href="https://drive.google.com/uc?export=download&id=1ttdpAgk_U3UTO5BkB5QM2Xwwrp5zH0o6"
+                  download
+                >
+                  Resume
+                </a>
+              </button> */}
             </li>
           </ul>
         </div>

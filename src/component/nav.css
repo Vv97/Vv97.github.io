@@ -1,2 +1,11 @@
+.navbarResumelink {
+    color: #393739;
+}
+.navbarResumelink:hover{
+    color:  #7FD1AE;
+}
 
+.nav-link.active{
+    color: red
+}
 

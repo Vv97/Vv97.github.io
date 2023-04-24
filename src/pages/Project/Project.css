@@ -1,204 +1,179 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
-.Project{
-    width: 100%;
-   max-width: 968px;
-   margin: 0 auto;
-   background-color: #fbfafb;
+.Project {
+  width: 100%;
+  max-width: 968px;
+  margin: 0 auto;
+  background-color: #fbfafb;
 }
 
-
-
-.projectHeading{
-    font-size: 3.5rem;
-    padding: 5px;
-    color: var(--title-color);
+.projectHeading {
+  font-size: 3.5rem;
+  padding: 5px;
+  color: var(--title-color);
 }
 
-.ProjectWrapper{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+.ProjectWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
-
-.ProjectWrapper > div{
-    padding: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 10px;
-    padding-bottom: 1.5rem;
-    background: #fff;
-    transition: all 0.3s;
+.ProjectWrapper > div {
+  padding: 0.5rem;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  padding-bottom: 1.5rem;
+  background: #fff;
+  transition: all 0.3s;
 }
 
-.projectLogo{
-    width: 100%;
+.projectLogo {
+  width: 100%;
 }
 
-
-.projectLogo > img{
-    width: 100%;
+.projectLogo > img {
+  width: 100%;
 }
 
-.projectTeckStackContent{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 2rem;
-    /* border: 1px solid rebeccapurple; */
-    margin-bottom: 1rem;
-   
+.projectTeckStackContent {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
+  /* border: 1px solid rebeccapurple; */
+  margin-bottom: 1rem;
 }
 
-.projectLinks{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
+.projectLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
 }
 
-
-
-
-
-.projectLinksIconPlay{
-font-size: 2rem;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 50%;
-padding: 0.1rem ;
-border: 2px solid black;
+.projectLinksIconPlay {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.1rem;
+  border: 2px solid black;
 }
 
-.projectLinksIconCode{
-font-size: 2rem;
-border-radius: 50%;
-padding: 0.1rem ;
-border: 2px solid #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-color: black;
+.projectLinksIconCode {
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
-.projectLinksIconCode:hover{
-border: 2px solid black;
-border-radius: 50%;
-padding: 0.1rem ;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: black;
-color: #fff;
+.projectLinksIconCode:hover {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
 }
 
-
-.projectLinksIconPlay:hover{
-    background-color: black;
-    color: #fff;
+.projectLinksIconPlay:hover {
+  background-color: black;
+  color: #fff;
 }
 
-
-.projectcontentHeading{
-    padding: 1rem 0;
-    font-size: 1.5rem;
-    color: #393739;
-
+.projectcontentHeading {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #393739;
 }
 
-.projectDiscreption{
-    color:  var(--text-color);
-    font-size: 0.8rem;
-    padding: 0.5rem 0;
-font-family: 'Montserrat', sans-serif;
-text-align: left;
-
+.projectDiscreption {
+  color: var(--text-color);
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
 }
 
-
-.projectTechStackTitle{
-    color: var(--title-color);
-    margin-top: 12px;
-    font-weight: 500;
-    
+.projectTechStackTitle {
+  color: var(--title-color);
+  margin-top: 12px;
+  font-weight: 500;
 }
 
-.projectTeckStackContent{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.2rem 0;
-    height: 2.5rem;
-    /* border: 1px solid red; */
+.projectTeckStackContent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem 0;
+  height: 2.5rem;
+  /* border: 1px solid red; */
 }
 
-
-.projectTeckStackcontentTitle{
-font-size: 0.6rem;
-background-color: var(--title-color);
-color: #fff;
-height: 1.1rem;
-padding: 0.2rem 0.5rem;
-border-radius: 10px;
-font-family: 'Montserrat', sans-serif;
+.projectTeckStackcontentTitle {
+  font-size: 0.6rem;
+  background-color: var(--title-color);
+  color: #fff;
+  height: 1.1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.ProjectWrapper > div:hover{
-    transform: scale(0.9);
-   
-    z-index: 1;
+.ProjectWrapper > div:hover {
+  transform: scale(0.9);
+
+  z-index: 1;
 }
 
-
-.projectLinks{
-    color: black;
+.projectLinks {
+  color: black;
 }
 
-
-
-@media screen and (max-width:992px) {
-    
-    .ProjectWrapper{
-        padding-inline: 10px;
-    }
-    
-    }
-    
-    
-    @media screen and (max-width:762px) {
-        .ProjectWrapper{
-           grid-template-columns: repeat(2,1fr);
-        } 
-      
-
-
-        .projectHeading{
-            text-align: center;
-            padding: 0.5rem;
-            font-size: 2rem;
-            color: var(--title-color);
-        }
-        
-    }
-    
-    
-    
-  @media screen and (max-width:576px){
-    .ProjectWrapper{
-        grid-template-columns: repeat(1,1fr);
-     } 
-
-
-     .projectLogo{
-        width: 100%;
-    }
-    
-    
-    .projectLogo > img{
-        width: 100%;
-    }
-    
+@media screen and (max-width: 992px) {
+  .ProjectWrapper {
+    padding-inline: 10px;
   }
+  .ProjectWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .ProjectWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projectHeading {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: var(--title-color);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ProjectWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projectLogo {
+    width: 100%;
+  }
+
+  .projectLogo > img {
+    width: 100%;
+  }
+}

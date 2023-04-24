@@ -1,6 +1,7 @@
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
 import "./contribute.css";
+import { GitStatus } from "../gitstatus/GitStatus";
 
 export const Contribute = () => {
   return (
