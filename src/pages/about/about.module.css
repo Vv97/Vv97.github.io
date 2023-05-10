@@ -64,7 +64,7 @@
 .aboutImg > img {
   width: 80%;
   border-radius: 15px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   box-shadow: rgb(14 30 37 / 61%) 0px 2px 4px 0px,
     rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
