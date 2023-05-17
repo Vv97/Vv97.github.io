@@ -26,7 +26,7 @@ let obj = [
   {
     title: "ebuzz",
     deciption:
-      "Travlo.com is a booking platform where travelers can book a flight hotel and rent car.",
+      "Ebuzz is the world's online marketplace to buy and sell electronics, cars, clothes, collectibles and more.",
     image: "https://i.imgur.com/9w2lUcF.jpg",
     techstack: [
       "HTML",
