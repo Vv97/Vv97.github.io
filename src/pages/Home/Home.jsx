@@ -22,11 +22,10 @@ const Home = () => {
         <div>
           <About />
         </div>
-
         <div>
           <Skills />
         </div>
-
+        <div className="Spacing"></div>
         <div>
           <Contribute />
         </div>
@@ -35,10 +34,12 @@ const Home = () => {
           <GitStatus />
         </div>
 
+        <div className="Spacing"></div>
         <div>
           <Project />
         </div>
 
+        <div className="Spacing"></div>
         <div>
           <Contact />
         </div>
